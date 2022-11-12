@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e0dbdb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border-left: #1e3825 10px solid;
+    border-right: #1e3825 10px solid;
+}
+
+.menu {
+    background-color: #1e3825;
+    padding: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: #ffd900;
+    transition: 0.9s;
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    color: #a38b00;
+}
+
+.menu ul li {
+    display: inline;
+    font-size: 25px;
+}
+
+.noticias {
+
+    display: flex;
+    margin: 50px;
+    justify-content: space-around;
+}
+.noticias img {
+    height: 200px;
+    width: 200px;
+}
+.noticias .card{
+    display: flex;
+    border: 5px solid #1e3825;
+    width: 500px;
+    height: 200px;
+    overflow-y: auto;
+    font-size: 20px;
+}
+.noticias .card p{
+    padding: 10px;
+}
+ span {
+    font-weight: bold;
+}
+.copa {
+    margin-top: 25px;
+    padding-left: 10px;
+
+}
+
+.titulo {
+    padding: 15px;
+    color: #1e3825;
+}
+
+.copa .content {
+    display: flex;
+}
+
+.copa .content p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.copa .taca img {
+    height: 700px;
+}
+
+.hist {
+    padding-top: 25px;
+    display: flex;
+    font-size: 20px;
+
+}
+
+.hist #fuleco {
+    height: 500px;
+}
+
+footer {
+    height: 120px;
+    margin-top: 20px;
+    background-color: #1e3825;
+    padding: 10px;
+}
+
+footer p {
+    color: #f7d200;
+    font-weight: 600;
+}
+
+footer p a {
+    color: #0063b4;
+    text-decoration: none;
+}

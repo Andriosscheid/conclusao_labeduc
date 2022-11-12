@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formulario</title>
+    <link rel="stylesheet" href="estilof.css"/>
+    <link rel="icon" href="./img/taça.png">
+  </head>
+  <body>
+    <header>
+        <div class="menu">
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/estadios.html">Estádios</a></li>
+            <li><a href="/selecao.html">Seleção Brasileira</a></li>
+            <li><a href="/formulario.html">Bolão da copa</a></li>
+          </ul>
+        </div>
+    
+      </header>
+    <div class="container">  
+        <header>
+          <h2>Criar conta</h2>
+        </header>
+
+      <form id="form" >
+        <div class="form-divs">
+          <label for="usarname">Nome</label>
+          <input type="text" id="usarname" />
+          <i><img src="success-icon.svg" class="img-success" /></i>
+          <i><img src="error-icon.svg" class="img-error" /></i>
+          <small class="error">Error message</small>
+        </div>
+
+        <div class="form-divs">
+          <label for="email">Email</label>
+          <input type="email" id="email" />
+          <i><img src="success-icon.svg" class="img-success" /></i>
+          <i><img src="error-icon.svg" class="img-error" /></i>
+          <small class="error">Error message</small>
+        </div>
+
+        <div class="form-divs">
+            <label for="idade">idade</label>
+            <input type="number" id="idade" />
+            <i><img src="success-icon.svg" class="img-success" /></i>
+            <i><img src="error-icon.svg" class="img-error" /></i>
+            <small class="error">Error message</small>
+          </div>
+          <div class="form-divs">
+        <label  for="Time">Seu time:</label>
+        <select>
+            <option selected value="">Selecione:</option>
+            <!--esse primeiro option é só uma opção default para a down-box-->
+            <option>Catar</option>
+            <option>Equador</option>
+            <option>Holanda</option>
+            <option>Senegal</option>
+            <option>Estados Unidos</option>
+            <option>Inglaterra</option>
+            <option>Irã</option>
+            <option>País de Gales</option>
+            <option>Argentina</option>
+            <option>Arábia Saudita</option>
+            <option>México</option>
+            <option>Polônia</option>
+            <option>França</option>
+            <option>Dinamarca</option>
+            <option>Tunísia</option>
+            <option>Austrália</option>
+            <option>Japão</option>
+            <option>Costa Rica</option>
+            <option>Bélgica</option>
+            <option>Canadá</option>
+            <option>Marrocos</option>
+            <option>Croácia</option>
+            <option>Brasil</option>
+            <option>Sérvia</option>
+            <option>Camarões</option>
+            <option>Portugal</option>
+            <option>Gana</option>
+            <option>Uruguai</option>
+            <option>Coreia do Sul</option>
+        </select>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
